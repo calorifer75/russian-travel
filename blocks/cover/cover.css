@@ -1,0 +1,26 @@
+.cover {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  position: relative;
+  background-image: url(../../images/railway-station-small.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 33px 0 33px 0;
+}
+
+.cover:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #2A2C2F;
+  opacity: .3;
+}
+
+.cover:hover:before {
+  opacity: .8;
+}
