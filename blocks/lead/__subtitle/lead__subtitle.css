@@ -4,6 +4,17 @@
   font-size: 16px;
   line-height: 20px;
   text-align: center;
+
   margin: 0 auto 40px auto;
   max-width: 288px;
+}
+
+@media screen and (min-width: 740px) {
+  .lead__subtitle {
+    font-size: 30px;
+    line-height: 36px;
+
+    margin: 0 auto 56px auto;
+    max-width: 640px;
+  }
 }

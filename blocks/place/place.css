@@ -5,3 +5,15 @@
 .place:nth-last-child(1) {
   padding-bottom: 0;
 }
+
+@media screen and (min-width: 690px) {
+  .place {
+    padding-bottom: 73px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .place {
+    padding-bottom: 80px;
+  }
+}

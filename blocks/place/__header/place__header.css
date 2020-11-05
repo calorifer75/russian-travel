@@ -1,0 +1,14 @@
+@media screen and (min-width: 690px) {
+  .place__header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 28px;
+    margin-bottom: 48px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .place__header {
+    column-gap: 32px;
+  }
+}

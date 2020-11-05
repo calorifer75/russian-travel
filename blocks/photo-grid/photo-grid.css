@@ -1,5 +1,24 @@
 .photo-grid {
   display: grid;
-  padding: 0 16px 64px 16px;
   row-gap: 12px;
+
+  padding: 0 16px 64px 16px;
+}
+
+@media screen and (min-width: 470px) {
+  .photo-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 16px 16px;
+
+    padding: 0 24px 88px 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .photo-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 14px 14px;
+
+    padding: 0 48px 92px 48px;
+  }
 }

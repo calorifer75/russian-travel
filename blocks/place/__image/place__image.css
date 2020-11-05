@@ -2,3 +2,9 @@
   width: 100%;
   margin-bottom: 32px;
 }
+
+@media screen and (min-width: 690px) {
+  .place__image {
+    margin: 0;
+  }
+}
