@@ -1,4 +1,5 @@
 # Проект 3: Путешествие по России
+* [Ссылка на GitHub Pages](https://calorifer75.github.io/russian-travel/index.html)
 
 ### Обзор
 * Интро
