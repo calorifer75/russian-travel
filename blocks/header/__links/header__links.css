@@ -1,5 +1,8 @@
 .header__links {
   padding: 14px 0 8px 0;
+  list-style: none;
+  margin: 0;
+  display: flex;
 }
 
 @media screen and (min-width: 690px) {

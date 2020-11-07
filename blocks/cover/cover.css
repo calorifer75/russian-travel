@@ -18,6 +18,7 @@
   right: 0;
   background-color: #2A2C2F;
   opacity: .3;
+  transition: opacity .3s;
 }
 
 .cover:hover:before {
@@ -26,6 +27,6 @@
 
 @media screen and (min-width: 1280px) {
   .cover {
-    
+
   }
 }
